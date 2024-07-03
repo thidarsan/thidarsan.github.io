@@ -65,3 +65,13 @@ h2 a:visited {
 h2 a:active {
     color: yellow;
 }
+
+
+/* target */
+:target{
+    color: red;
+    border: 1px solid black;
+    line-height: 30px;
+    letter-spacing: 20px;
+
+}

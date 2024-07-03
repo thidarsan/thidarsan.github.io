@@ -23,3 +23,45 @@ a[title="google"]{
     word-spacing: 20px;
     line-height: 40px;
 }
+
+/* descendant selector */
+div p{
+    background-color: yellow;
+}
+
+div>p {
+    color: black;
+}
+
+span>p {
+    color: green;
+}
+
+/* Pseudo Selector */
+h1 a:hover{
+    color: white;
+    font-size: 50px;
+    background-color: red;
+}
+
+h1:hover {
+    color: red;
+}
+
+
+
+h2 a:link {
+    color: green;
+}
+
+h2 a:hover {
+    color: greenyellow;
+}
+
+h2 a:visited {
+    color: purple;
+}
+
+h2 a:active {
+    color: yellow;
+}

@@ -75,3 +75,42 @@ h2 a:active {
     letter-spacing: 20px;
 
 }
+
+/* Border */
+.borderone{
+    border: 10px  solid red;
+}
+
+.bordertwo{
+    border-top: 5px double yellow ;
+    border-left: 5px double yellow ;
+}
+
+.borderthree{
+    border-color: brown yellow;
+    /* border-style: solid ;
+    /* T & R & B & L */
+    /* border-style: solid dotted;
+    /* T & B / L & R */
+    /* border-style: solid dotted double; */ 
+    /* T / L&R / B */
+    border-style: solid dotted double dashed;
+    /* T/ R/ B/ L */
+}
+
+.borderwidth{
+    border-style: solid;
+    border-width: 3px 30px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.marginone{
+    margin: 10px 30px 40px 100px;
+}
+.margintwo{
+    margin-left: 100px;
+}

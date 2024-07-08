@@ -117,5 +117,5 @@ h2 a:active {
 .padding{
     /* padding: 100px; */
     padding-top: 50px;
-    border: 1px solid red;
+    border: 10px solid red;
 }

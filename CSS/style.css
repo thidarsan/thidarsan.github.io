@@ -25,9 +25,9 @@ a[title="google"]{
 }
 
 /* descendant selector */
-div p{
+/* div p{
     background-color: yellow;
-}
+} */
 
 div>p {
     color: black;
@@ -118,4 +118,57 @@ h2 a:active {
     /* padding: 100px; */
     padding-top: 50px;
     border: 10px solid red;
+}
+
+/* Layout */
+.inline{
+    border: 2px solid red;
+    display: inline-block;
+    width: 400px;
+}
+
+.block{
+    border: 2px solid green;
+    width: 400px;
+    display: inline-block;
+}
+
+/* float */
+.float_right img{
+    float: right;
+    width: 40%;
+
+}
+
+
+.clear{
+    clear: both
+}
+
+.float_left img{
+    width: 40%;
+    float: left;
+}
+
+/* grid */
+.gridone div, .gridtwo div, .gridthree div, .gridfour div{
+    padding: 20px;
+    color:white;
+    text-align: center;
+}
+
+.gridone, .gridtwo, .gridthree, .gridfour{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridtwo {
+    grid-column-gap: 40px;
+}
+
+.gridthree{
+    grid-row-gap: 40px;
+}
+.gridfour{
+    grid-gap: 40px;
 }

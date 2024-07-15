@@ -110,7 +110,7 @@
 .promotion1{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 15px 150px;
+    margin: 15px 30px;
     grid-column-gap: 30px;
 }
 
@@ -149,7 +149,7 @@
 .new_arrival{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 15px 150px;
+    margin: 15px 30px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
 }

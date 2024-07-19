@@ -151,13 +151,13 @@ h2 a:active {
 }
 
 /* grid */
-.gridone div, .gridtwo div, .gridthree div, .gridfour div{
+.gridone div, .gridtwo div, .gridthree div, .gridfour div, .gridfive div,.gridsix div{
     padding: 20px;
     color:white;
     text-align: center;
 }
 
-.gridone, .gridtwo, .gridthree, .gridfour{
+.gridone, .gridtwo, .gridthree, .gridfour, .gridfive, .gridsix{
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -172,3 +172,75 @@ h2 a:active {
 .gridfour{
     grid-gap: 40px;
 }
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* /Position */
+.parent_absolute{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid red ;
+    position: relative;
+ 
+}
+.absolute{
+    width: 400px;
+    height: 200px;
+    border: 1px solid yellow;
+    position:absolute ;
+    top: 10px;
+    left:158px ;
+}
+
+.parent_relative{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid green;
+    
+ 
+}
+
+.relative{
+    width: 400px;
+    height: 200px;
+    border: 2px solid red ;
+    position:relative ;
+    top: 10px;
+    left:150px ;
+}
+
+.fixed{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+
+
+.online{
+  font-family: "Playwrite PE", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "oswald";
+    src: url(Oswald/Oswald-VariableFont_wght.ttf);
+   
+
+}
+
+
+
+.offline{
+    font-family: "oswald";
+}   
+
